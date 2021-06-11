@@ -1,0 +1,22 @@
+{
+  "name": "vendor_name/nguyen_son_thanh_c0321g01",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "thanh.n5151",
+      "email": "email@example.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "App\\Controller\\": "app/controller",
+      "App\\Model\\": "app/model",
+      "App\\": "app"
+    }
+  },
+  "require": {
+    "ext-pdo": "*"
+  }
+}
